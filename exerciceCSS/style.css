@@ -1,0 +1,34 @@
+/* Exercice 1 */
+
+.divRed {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+
+/* Exercice 2 */
+
+.odd {
+    font-family: "verdana", "DejaVu Sans", sans-serif;
+    background-color: lightpink;
+
+}
+
+#divTwo2 {
+    color: blue;
+    font-size: 36px;
+}
+
+.oddTwo3 {
+    font-size: 24px;
+}
+
+#divTwo4 {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}

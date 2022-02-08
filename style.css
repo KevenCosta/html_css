@@ -1,0 +1,81 @@
+/* Universal style. */
+* {
+    color: black;
+}
+
+
+/* Type selector or element selector. 
+Do for all same name element */
+div {
+    background-color: blue;
+}
+
+
+/* Class selector. 
+Call in html with <div class="div1">
+We can use more than one class in element, just use space into class like: <div class="div1 div2"*/
+
+.div1 {
+    color: yellow;
+    background-color: purple;
+}
+
+.div1 {
+    background-color: brown;
+}
+
+
+/* ID selector.
+Call in html with <div id="divOne"
+The differency in id and class is the id is unique in the page.>
+*/
+
+#divOne {
+    background-color: gray;
+}
+
+
+/* Grouping Selector.
+The style applied to elements that use the first class or second class. 
+The benefit is you can write specific attributes to class separate. */
+
+.divFirst,
+.divSecond {
+    background-color: greenyellow;
+}
+
+.divFirst {
+    color: hotpink;
+}
+
+.divSecond {
+    color: indigo;
+}
+
+
+/* Chain selector.
+The style is only applied to elements that use both classes. */
+
+.roll1.roll2 {
+    color: khaki;
+}
+
+
+/* Descendent combinator.
+Class chield apllied in element in ancestor tree. 
+ex: <div class="ancestor">
+        <div class="contents">*/
+
+.ascestor .contents {
+    color: lightcoral;
+}
+
+
+/* Order of Specificity preference CSS
+    The is: More specific wins
+
+    1.ID Selectors
+    2.Class selectors
+    3.Type selectors 
+    
+    Selector type wins over quantity of lower quality selector. */
