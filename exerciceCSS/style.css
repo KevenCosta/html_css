@@ -32,3 +32,79 @@
     font-weight: bold;
     font-size: 24px;
 }
+
+
+/* Exercice 3 */
+
+.classThree1,
+.classThree2{
+    font-family: Helvetica, Times New Roman, "sans-serif";
+    font-size: 28px;
+}
+
+.classThree1{
+    background-color: black;
+    color: white;
+}
+
+.classThree2{
+    background-color: yellow;
+}
+
+
+/* Exercice 4 */
+
+.avatar.proportioned{
+    width: 300px;
+    height: auto;
+}
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
+
+/* Exercice 5 */
+
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Exercice 6 */
+
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.small-para {
+  font-size: 14px;
+}
+
+.para {
+  font-size: 22px;
+}
+
+.button.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+
+.text.child {
+  color: red;
+  font-size: 14px;
+}
+
+div.text {
+  color: green;
+  font-size: 22px;
+}
